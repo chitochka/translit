@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+ 
+    "name": "translit",
+    "description": "1st tranlit",
+    "version": "1.0",
+ 
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "activeTab","tabs", "clipboardWrite","clipboardRead"
+    ]
+}
